@@ -37,7 +37,7 @@ plugins:
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
 extra:
-  homepage: http://kongshangxvyu.github.io/zh-blog
+  homepage: http://kongshanxuyu.github.io/zh-blog
   social: # icons
 #   - icon: fontawesome/brands/bilibili
 #     link: https://space.bilibili.com/1436476753
