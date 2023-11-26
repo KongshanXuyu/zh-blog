@@ -24,6 +24,9 @@ theme:
     - navigation.expand
     - search.suggest
     - search.highlight
+    - search.suggest   # 搜索输入一些字母时推荐补全整个单词
+    - search.highlight   # 搜索出的文章关键词加入高亮
+    - search.share   #搜索分享按钮
   language: zh
 
 nav:
@@ -37,6 +40,7 @@ nav:
     - Linux: 计算机/Linux/文件1.md
     - 计算机组成: 计算机/计算机组成/文件.md
 plugins:
+  - search
   - mermaid2:
       arguments:
         theme: light
@@ -52,5 +56,8 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/KongshanXuyu
       name: GitHub | KongshangXuyu
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/2120194476?spm_id_from=333.1007.0.0
+      name: bilibili | 空山虚雨
 ## [bottom-left corner]
 copyright: Copyright &copy; 2023-现在 空山虚雨 # 左下角的版权声明
