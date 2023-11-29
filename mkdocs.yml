@@ -70,6 +70,10 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - abbr #增加了向元素添加小工具提示的功能，方法是用标记包装元素。仅支持纯文本
+  - attr_list #允许使用特殊语法将 HTML 属性和 CSS 类添加到几乎每个 Markdown 内联和块级元素
+  - def_list #定义列表（在 HTML 中通常称为描述列表）
+  
 
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
