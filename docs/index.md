@@ -26,6 +26,22 @@
 
 
 
+<script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
+<video id="video" preload muted loop controls autoplay style="height: 100%;width: 100%;object-fit: cover;">
+</video>
+<script>
+  var video = document.getElementById('video');
+  var videoSrc = './pictures/video.001/playlist.m3u8';
+  if (Hls.isSupported()) {
+    var hls = new Hls();
+    hls.loadSource(videoSrc);
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED, function() {
+      video.play();
+    });
+  }
+</script>
+
 ### 2023.9.6
 
 就读于北京印刷学院
