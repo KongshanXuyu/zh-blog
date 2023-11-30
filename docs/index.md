@@ -27,7 +27,7 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
-<video id="video" preload muted loop controls autoplay style="height: 100%;width: 100%;object-fit: cover;">
+<video id="video" preload muted loop autobuffer controls autoplay style="height: 100%;width: 100%;object-fit: cover;">
 </video>
 <script>
   var video = document.getElementById('video');
@@ -41,6 +41,7 @@
     });
   }
 </script>
+
 
 ### 2023.9.6
 
