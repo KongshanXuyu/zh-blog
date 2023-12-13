@@ -79,6 +79,7 @@ markdown_extensions:
 
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
+  - stylesheets/extra.css #自定义图标类型
 extra:
   homepage: http://kongshanxuyu.github.io/zh-blog
   social: # icons
