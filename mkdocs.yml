@@ -62,6 +62,7 @@ nav:
     - 计算机组成: 计算机/计算机组成/文件.md
     - 书籍:
       - 编码: 计算机/书籍/编码/文件.md
+      - Linux: 计算机/书籍/Linux/文件.md
 plugins:
   - search
   - mermaid2:
